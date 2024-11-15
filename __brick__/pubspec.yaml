@@ -1,0 +1,32 @@
+name: {{name}}
+description: A new Flutter MVC with Riverpod project.
+publish_to: 'none' 
+version: 0.1.0
+
+environment:
+  sdk: '>=2.19.0 <3.0.0'
+  flutter: '>=3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_riverpod: ^2.0.0
+  http: ^0.13.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  lint: ^1.7.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/icons/
+    - assets/images/
+  fonts:
+    - family: CustomFont
+      fonts:
+        - asset: assets/fonts/CustomFont-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/CustomFont-Bold.ttf
+          weight: 700

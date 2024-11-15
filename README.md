@@ -40,10 +40,10 @@ To use this starter kit, you need to add it to Mason. You can do this in several
 If this brick is hosted on GitHub, add it using:
 
 ```bash
-mason add flutter_mvc_riverpod_starter --git-url https://github.com/<username>/<repository>.git
+mason add flutter_mvc_riverpod_starter --git-url https://github.com/Darkbeast-glitch/Flutter-MSK.git
 ```
-
-Replace `<username>` and `<repository>` with the appropriate GitHub username and repository name.
+<!-- 
+Replace `<username>` and `<repository>` with the appropriate GitHub username and repository name. -->
 
 ### 2. Using a Local Path
 

@@ -68,7 +68,7 @@ Ensure you replace `path_to_brick` with the actual path to the `flutter_mvc_rive
 After adding the **Flutter MVC Riverpod Starter Kit** brick to Mason, you can generate a new Flutter project using:
 
 ```bash
-mason make flutter_mvc_riverpod_starter --project_name my_new_app
+mason make flutter_mvc_riverpod_starter --name my_new_app
 ```
 
 Replace `my_new_app` with the desired name for your new project. If you don't specify a name, the default `my_flutter_app` is used.

@@ -39,6 +39,14 @@ To use this starter kit, you need to add it to Mason. You can do this in several
 
 If this brick is hosted on GitHub, add it using:
 
+before you add it from git make sure you initialize mason using the command below:
+
+
+```bash
+mason init 
+```
+
+
 ```bash
 mason add flutter_mvc_riverpod_starter --git-url https://github.com/Darkbeast-glitch/Flutter-MSK.git
 ```
